@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #e6b4b4;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .box {
+            width: 30%;
+            background-color: #11e6f5;
+            padding: 10px;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #a76161;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <p>Content</p>
+            <div class="footer">Footer</div>
+        </div>
+        <div class="box">
+            <p>Content</p>
+            <div class="footer">Footer</div>
+        </div>
+        <div class="box">
+            <p>Content</p>
+            <div class="footer">Footer</div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Global Footer</p>
+    </div>
+</body>
+</html>
